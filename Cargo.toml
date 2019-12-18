@@ -13,7 +13,7 @@ edition = "2018"
 
 [dependencies]
 arrayvec = "0.5.0"
-ethabi = { git = "https://github.com/graphprotocol/ethabi", branch = "graph-patches" }
+ethabi = { git = "https://github.com/samparsky/ethabi", branch = "graph-patches" }
 ethereum-types = "0.8.0"
 ethereum-transaction = "0.2.0"
 ethsign = "0.7.3"
@@ -21,7 +21,7 @@ futures = "0.1.26"
 jsonrpc-core = "14.0.0"
 log = "0.4.6"
 parity-crypto = "0.4.2"
-parking_lot = "0.10.0"
+parking_lot = "0.9.0"
 rustc-hex = "2.0.1"
 serde = { version = "1.0.90", features = ["derive"] }
 serde_json = "1.0.39"
