@@ -16,7 +16,7 @@ arrayvec = "0.5.0"
 ethabi = { git = "https://github.com/samparsky/ethabi", branch = "graph-patches" }
 ethereum-types = "0.8.0"
 ethereum-transaction = "0.2.0"
-ethsign = "0.7.3"
+ethsign = { version = "0.7.3", features = ["pure-rust"] }
 futures = "0.1.26"
 jsonrpc-core = "14.0.0"
 log = "0.4.6"
